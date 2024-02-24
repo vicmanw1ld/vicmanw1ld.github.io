@@ -1,71 +1,72 @@
 body{
-
+    background-image: url(breaking\ bad/fondo.jpg);
+    background-size:cover;
     color:whitesmoke;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Breaking B Normal;
     font-size:large;
     margin: 0;
+    text-align: center;
     
 
 }
-#fondo{
-     
-}
+
 #logoBr {
-    margin-top: 1rem;
-    margin: 1rem;
-    padding-left: 40%;
+    padding: 20px;
+    background-repeat:no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: auto;
 
 }
+
+
+
 #poster{
+    margin: auto;
     width: 700px;
     height: 300px;
-    background-image: url(./breaking\ bad/poster.jpg);
-    background-size: cover;
-    border: 10px outset brown;
     border-radius: 22px;
-    margin-left: 25%;
-    padding: 10px;
-    
-
-}
-h2{
-   margin-left: 7rem;
+    border: 10px outset brown;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
 }
 
+/* FORMULARIO */
 
-/* tabla peeriodica */
 
-.cuerpo{
+
+/* tabla periodica */
+
+.bodyTable{
     background-color: #0c3e11;
+    font-size:large;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font: x-large;
     color: black;
-
+    font-weight:bolder;
 }
 #tableLements{
     background-color: black;
     margin: auto;
-    
-    
-
 }
-td{
+td, th{
     width: 80px;
     height: 50px;
 }
+
 
 /* tabla 2 */
 
 #tabla2{
     background-color: black;
     margin: auto;
+    
     /* Quitar luego la letra blanca */
     color: aliceblue; 
 
 }
 
-#tr2{
+#tr1{
+    
     background-color: green;
 }
