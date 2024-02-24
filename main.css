@@ -19,8 +19,6 @@ body{
 
 }
 
-
-
 #poster{
     margin: auto;
     width: 700px;
@@ -29,29 +27,41 @@ body{
     border: 10px outset brown;
     padding: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-
 }
 
 /* FORMULARIO */
 
-
+.formulario{
+    color: black;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto;  
+    padding: 50px;  
+    box-shadow: 10px 10px 10px rgba(10, 37, 81, 0.5);
+}
 
 /* tabla periodica */
 
-.bodyTable{
-    background-color: #0c3e11;
+#bodyTable{
+
     font-size:large;
     text-align: center;
     color: black;
     font-weight:bolder;
 }
 #tableLements{
+    background-color: #0c3e11;
+
     background-color: black;
     margin: auto;
 }
 td, th{
     width: 80px;
     height: 50px;
+    border: 2px solid #000;
+    
 }
 
 

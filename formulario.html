@@ -10,56 +10,56 @@
     <body>
 <!-- Nombre, Apellidos, Dirección Postal (Calle, Número, Piso,
 Código Postal, Ciudad, DNI y Correo Electrónico. -->
+        <div>
         
-
-        <form action="mailto:victor.anton9@gmail.com" method="post" enctype="multipart/form-data" class="formulario">
             <h1>Breaking Bad – Que comience el juego!</h1>
- 
-            Nombre: <input type="text" id="nombre" name="nombre" required placeholder="Ponga su nombre">
-            <br>
-            Apellidos:  <input type="text" id="apellidos" name="apellidos" required placeholder="Ponga su apellido">
-            <br>
-            Dirección: <input type="text" id="calle" name="calle" placeholder="Calle ">
-            <br>
-            Numero: <input type="number" id="numero" name="numero" placeholder="Número">
-            <br>
-            Piso / puerta<input type="text" id="piso" name="piso" placeholder="Piso y puerta" minlength="1">
-            <br>
-            Código postal <input type="text" id="cp" name="cp" placeholder="Código postal">
-            <br>
-            Ciudad: <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
-            <br>
-            <!-- He investigado para poner restricciones al escribir el dni y el email con pattern y 
-            expresiones regulares -->
-            DNI: <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Z]" placeholder="ejemplo 56456456X">
-            <br>
-            Email: <input type="email" id="email" name="email" required placeholder="seHaceAsi@loQueSea.es"
-            pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_{|}~-]+@[a-zA-Z0-9-]+(.[a-zA-Z0-9-]+)*$`">
-            <br>
-            Sexo: <br>
-            Poco <input type="radio" id="hombre" name="sexo" value="hombre">
-            <br>
-            Mucho <input type="radio" id="mujer" name="sexo" value="mujer">
-            <br>
-            Fecha de nacimiento: <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
-            <br>
-            Personaje favorito: <select id="personaje" name="personaje">
-            <option value="">Seleccione un personaje</option>
-            <option value="jessie_pinkman">Jesse Pinkman</option>
-            <option value="walter_white">Walter White</option>
-            <option value="saul_goodman">Saul Goodman</option>
-            <option value="gustavo_fring">Gustavo Fring</option>
-            <option value="pollos_hermanos">Pollos Hermanos</option>
-            <option value="otros">Otros personajes</option>
-            </select>
-            <br>
-            Deja tu Comentario <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
-            <br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-            <br>
-            Adjuntar archivo: <input type="file" id="archivo" name="archivo">
-        </form>
 
+            <form action="mailto:victor.anton9@gmail.com" method="post" enctype="multipart/form-data" class="formulario">
+    
+                Nombre: <input type="text" id="nombre" name="nombre" required placeholder="Ponga su nombre">
+                <br>
+                Apellidos:  <input type="text" id="apellidos" name="apellidos" required placeholder="Ponga su apellido">
+                <br>
+                Dirección: <input type="text" id="calle" name="calle" placeholder="Calle ">
+                <br>
+                Numero: <input type="number" id="numero" name="numero" placeholder="Número">
+                <br>
+                Piso / puerta<input type="text" id="piso" name="piso" placeholder="Piso y puerta" minlength="1">
+                <br>
+                Código postal <input type="text" id="cp" name="cp" placeholder="Código postal">
+                <br>
+                Ciudad: <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+                <br>
+                <!-- He investigado para poner restricciones al escribir el dni y el email con pattern y 
+                expresiones regulares -->
+                DNI: <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Z]" placeholder="ejemplo 56456456X">
+                <br>
+                Email: <input type="email" id="email" name="email" required placeholder="seHaceAsi@loQueSea.es">
+                <br>
+                Sexo: <br>
+                Poco <input type="radio" id="hombre" name="sexo" value="hombre">
+                <br>
+                Mucho <input type="radio" id="mujer" name="sexo" value="mujer">
+                <br>
+                Fecha de nacimiento: <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+                <br>
+                Personaje favorito: <select id="personaje" name="personaje">
+                <option value="">Seleccione un personaje</option>
+                <option value="jessie_pinkman">Jesse Pinkman</option>
+                <option value="walter_white">Walter White</option>
+                <option value="saul_goodman">Saul Goodman</option>
+                <option value="gustavo_fring">Gustavo Fring</option>
+                <option value="pollos_hermanos">Pollos Hermanos</option>
+                <option value="otros">Otros personajes</option>
+                </select>
+                <br>
+                Deja tu Comentario <textarea id="comentarios" name="comentarios" rows="4" cols="50" minlength="10" maxlength="200"></textarea>
+                <br>
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="BORRAR">
+                <br>
+                Adjuntar archivo: <input type="file" id="archivo" name="archivo">
+            </form>
+        </div>
     </body>
 </html>
