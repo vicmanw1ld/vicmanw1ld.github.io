@@ -1,0 +1,71 @@
+body{
+
+    color:whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    margin: 0;
+    
+
+}
+#fondo{
+     
+}
+#logoBr {
+    margin-top: 1rem;
+    margin: 1rem;
+    padding-left: 40%;
+
+}
+#poster{
+    width: 700px;
+    height: 300px;
+    background-image: url(./breaking\ bad/poster.jpg);
+    background-size: cover;
+    border: 10px outset brown;
+    border-radius: 22px;
+    margin-left: 25%;
+    padding: 10px;
+    
+
+}
+h2{
+   margin-left: 7rem;
+
+}
+
+
+/* tabla peeriodica */
+
+.cuerpo{
+    background-color: #0c3e11;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: x-large;
+    color: black;
+
+}
+#tableLements{
+    background-color: black;
+    margin: auto;
+    
+    
+
+}
+td{
+    width: 80px;
+    height: 50px;
+}
+
+/* tabla 2 */
+
+#tabla2{
+    background-color: black;
+    margin: auto;
+    /* Quitar luego la letra blanca */
+    color: aliceblue; 
+
+}
+
+#tr2{
+    background-color: green;
+}
