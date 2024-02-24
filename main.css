@@ -2,13 +2,21 @@ body{
     background-image: url(breaking\ bad/fondo.jpg);
     background-size:cover;
     color:whitesmoke;
-    font-family: Breaking B Normal;
     font-size:large;
     margin: 0;
     text-align: center;
     
 
 }
+@font-face {
+    font-family: "Breaking Bad";
+    src: url(Breaking\ Bad.ttf);
+}
+
+h1{
+    text-shadow: 10px 10px 10px black;
+}
+/* LOGO */
 
 #logoBr {
     padding: 20px;
@@ -19,15 +27,19 @@ body{
 
 }
 
-#poster{
-    margin: auto;
+/* POSTER */
+.poster{
+    background-image: url(breaking\ bad/poster.jpg);
     width: 700px;
     height: 300px;
+    margin: auto;
     border-radius: 22px;
     border: 10px outset brown;
-    padding: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    
+    
 }
+
 
 /* FORMULARIO */
 
