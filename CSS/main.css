@@ -18,6 +18,7 @@ body{
 
 h1{
     text-shadow: 10px 10px 10px black;
+
 }
 
 /* LOGO */
@@ -50,26 +51,41 @@ h1{
     color: black;
     background-color: #f2f2f2;
     border: 1px solid #ccc;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 50px;
     width: 30%;
     margin: 0 auto;  
-    padding: 50px;  
     box-shadow: 10px 10px 10px rgba(10, 37, 81, 0.5);
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+    
 }
 input{
+    
     background-color: #D4D4D4;
     width: 300px;
     height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
 }
-/* #nombre{
-    background-color: #D4D4D4;
-    width: 200px;
-    height: 30px;
-
+#personaje{
+    width: 100%;
+    
 }
- */
+#comentarios{
+    width: 100%;
+    height: 100px;
+}
+#fecha_nacimiento{
+    width: 150px;
+}
+#enviar_borrar{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
 
 /* tabla periodica */
 

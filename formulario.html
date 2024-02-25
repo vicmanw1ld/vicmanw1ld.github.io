@@ -20,52 +20,52 @@ Código Postal, Ciudad, DNI y Correo Electrónico. -->
                 <div>
                     Nombre: <input type="text" id="nombre" name="nombre" required placeholder="Ponga su nombre">
                 </div>
-                <br>
+                
                 <div>
                     Apellidos:  <input type="text" id="apellidos" name="apellidos" required placeholder="Ponga su apellido">
                 </div>
-                <br>
+                
                 <div>
                     Dirección: <input type="text" id="calle" name="calle" placeholder="Calle ">
                 </div>
-                <br>
+                
                 <div>
                     Numero: <input type="number" id="numero" name="numero" placeholder="Número">
                 </div>
-                <br>
+                
                 <div>
                     Piso/puerta: <input type="text" id="piso" name="piso" placeholder="Piso y puerta" minlength="1">
                 </div>
-                <br>
+                
                 <div>
                     C. postal <input type="text" id="cp" name="cp" placeholder="Código postal">
                 </div>
-                <br>
+                
                 <div>
                     Ciudad: <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
                 </div>
-                <br>
+                
                 <!-- He investigado para poner restricciones al escribir el dni con pattern y 
                 expresiones regulares -->
                 <div>
                     DNI: <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Z]" placeholder="ejemplo 56456456X">
                 </div>
-                <br>
+                
                 <div>
                     Email: <input type="email" id="email" name="email" required placeholder="seHaceAsi@loQueSea.es">
                 </div>
-                <br>
+                
                 <div>
                     Sexo: <br>
                     Poco <input type="radio" id="hombre" name="sexo" value="hombre">
-                <br>
+                
                     Mucho <input type="radio" id="mujer" name="sexo" value="mujer">
                 </div>    
-                <br>
+                
                 <div>
-                    F. nacimiento: <input type="date" id="fecha_nacimiento" name="fecha de nacimiento">
+                    F.Nacimiento: <input type="date" id="fecha_nacimiento" name="fecha de nacimiento" >
                 </div>
-                <br>
+                
                 <div>
                     Personaje favorito: <select id="personaje" name="personaje">
                     <option value="">Seleccione un personaje</option>
@@ -76,17 +76,16 @@ Código Postal, Ciudad, DNI y Correo Electrónico. -->
                     <option value="pollos_hermanos">Pollos Hermanos</option>
                     <option value="otros">Otros personajes</option>
                     </select>
+                
                 </div>    
-                <br>
                     Deja tu Comentario <textarea id="comentarios" name="comentarios" rows="4" cols="50" minlength="10" maxlength="200"></textarea>
-                <br>
                 <div>
-                    <input type="submit" value="ENVIAR">
+                    <input type="submit" value="ENVIAR" id="enviar_borrar">
                 </div>
                 <div>
-                    <input type="reset" value="BORRAR">
+                    <input type="reset" value="BORRAR" id="enviar_borrar">
                 </div>
-                <br>
+                
                 <div>
                     Adjuntar archivo: <input type="file" id="archivo" name="archivo">
                 </div>    
