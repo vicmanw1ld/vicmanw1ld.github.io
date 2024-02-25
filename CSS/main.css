@@ -1,12 +1,12 @@
 
 /* index */
 body{
+    background-image: url(/breaking\ bad/fondo.jpg);
+    background-size:cover;
     color:whitesmoke;
     font-size:large;
     margin: 0;
     text-align: center;
-    background-image: url(/breaking\ bad/fondo.jpg);
-    background-size:cover;
     
     
 
