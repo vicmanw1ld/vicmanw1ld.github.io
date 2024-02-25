@@ -5,17 +5,17 @@
         <meta name="viewport, width=device-width, initial-scale=1.0">
         <title>Formulario</title>
         <link rel="stylesheet" href="CSS/main.css" type="text/css">
-        <link rel="icon" href="breaking bad/icon.png" type="image/x-icon">
+        <link rel="icon" href="IMG/icon.png" type="image/x-icon">
         
     </head>
-    <body>
+    <body id="fondo">
 <!-- Nombre, Apellidos, Dirección Postal (Calle, Número, Piso,
 Código Postal, Ciudad, DNI y Correo Electrónico. -->
         <div>
         
             <h1>Breaking Bad – Que comience el juego!</h1>
 
-            <form action="mailto:victor.anton9@gmail.com" method="post" enctype="multipart/form-data" class="formulario">
+            <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" enctype="multipart/form-data" class="formulario">
     
                 <div>
                     Nombre: <input type="text" id="nombre" name="nombre" required placeholder="Ponga su nombre">
@@ -46,7 +46,7 @@ Código Postal, Ciudad, DNI y Correo Electrónico. -->
                 </div>
                 
                 <!-- He investigado para poner restricciones al escribir el dni con pattern y 
-                expresiones regulares -->
+                expresiones regulares me ha resultado super curioso-->
                 <div>
                     DNI: <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Z]" placeholder="ejemplo 56456456X">
                 </div>
@@ -57,9 +57,9 @@ Código Postal, Ciudad, DNI y Correo Electrónico. -->
                 
                 <div>
                     Sexo: <br>
-                    Poco <input type="radio" id="hombre" name="sexo" value="hombre">
-                
-                    Mucho <input type="radio" id="mujer" name="sexo" value="mujer">
+                    Femenino <input type="radio" id="hombre" name="sexo" value="hombre">
+                    <br>
+                    Masculino <input type="radio" id="mujer" name="sexo" value="mujer">
                 </div>    
                 
                 <div>

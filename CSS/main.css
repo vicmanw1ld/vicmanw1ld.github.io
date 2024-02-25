@@ -1,16 +1,16 @@
-
 /* index */
 body{
-    background-image: url(/breaking\ bad/fondo.jpg);
+    background-image: url(/IMG/fondo.jpg);
     background-size:cover;
     color:whitesmoke;
+    /* He dejado la letra sí pq en mi ordenador se veía mejor */
     font-size:large;
     margin: 0;
     text-align: center;
-    
-    
-
 }
+
+
+/* Letra propuesta por el cliente */
 @font-face {
     font-family: "Breaking Bad";
     src: url(Breaking\ Bad.ttf);
@@ -44,7 +44,6 @@ h1{
         
 }
 
-
 /* FORMULARIO */
 
 .formulario{
@@ -55,6 +54,7 @@ h1{
     padding: 30px;
     width: 30%;
     margin: 0 auto;  
+    /*  Lo siento pero sin sombras no es lo mismo 😇 */
     box-shadow: 10px 10px 10px rgba(10, 37, 81, 0.5);
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
@@ -77,7 +77,7 @@ input{
     height: 100px;
 }
 #fecha_nacimiento{
-    width: 150px;
+    width: 100px;
 }
 #enviar_borrar{
     width: 100%;
