@@ -52,7 +52,7 @@ h1{
     background-color: #f2f2f2;
     border: 1px solid #ccc;
     border-radius: 10px;
-    padding: 50px;
+    padding: 30px;
     width: 30%;
     margin: 0 auto;  
     box-shadow: 10px 10px 10px rgba(10, 37, 81, 0.5);
@@ -63,7 +63,7 @@ h1{
 input{
     
     background-color: #D4D4D4;
-    width: 300px;
+    width: 200px;
     height: 20px;
     margin-bottom: 10px;
     font-size: 16px;
