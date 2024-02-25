@@ -17,49 +17,81 @@ Código Postal, Ciudad, DNI y Correo Electrónico. -->
 
             <form action="mailto:victor.anton9@gmail.com" method="post" enctype="multipart/form-data" class="formulario">
     
-                Nombre: <input type="text" id="nombre" name="nombre" required placeholder="Ponga su nombre">
+                <div>
+                    Nombre: <input type="text" id="nombre" name="nombre" required placeholder="Ponga su nombre">
+                </div>
                 <br>
-                Apellidos:  <input type="text" id="apellidos" name="apellidos" required placeholder="Ponga su apellido">
+                <div>
+                    Apellidos:  <input type="text" id="apellidos" name="apellidos" required placeholder="Ponga su apellido">
+                </div>
                 <br>
-                Dirección: <input type="text" id="calle" name="calle" placeholder="Calle ">
+                <div>
+                    Dirección: <input type="text" id="calle" name="calle" placeholder="Calle ">
+                </div>
                 <br>
-                Numero: <input type="number" id="numero" name="numero" placeholder="Número">
+                <div>
+                    Numero: <input type="number" id="numero" name="numero" placeholder="Número">
+                </div>
                 <br>
-                Piso / puerta<input type="text" id="piso" name="piso" placeholder="Piso y puerta" minlength="1">
+                <div>
+                    Piso/puerta: <input type="text" id="piso" name="piso" placeholder="Piso y puerta" minlength="1">
+                </div>
                 <br>
-                Código postal <input type="text" id="cp" name="cp" placeholder="Código postal">
+                <div>
+                    C. postal <input type="text" id="cp" name="cp" placeholder="Código postal">
+                </div>
                 <br>
-                Ciudad: <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+                <div>
+                    Ciudad: <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+                </div>
                 <br>
                 <!-- He investigado para poner restricciones al escribir el dni con pattern y 
                 expresiones regulares -->
-                DNI: <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Z]" placeholder="ejemplo 56456456X">
+                <div>
+                    DNI: <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Z]" placeholder="ejemplo 56456456X">
+                </div>
                 <br>
-                Email: <input type="email" id="email" name="email" required placeholder="seHaceAsi@loQueSea.es">
+                <div>
+                    Email: <input type="email" id="email" name="email" required placeholder="seHaceAsi@loQueSea.es">
+                </div>
                 <br>
-                Sexo: <br>
-                Poco <input type="radio" id="hombre" name="sexo" value="hombre">
+                <div>
+                    Sexo: <br>
+                    Poco <input type="radio" id="hombre" name="sexo" value="hombre">
                 <br>
-                Mucho <input type="radio" id="mujer" name="sexo" value="mujer">
+                    Mucho <input type="radio" id="mujer" name="sexo" value="mujer">
+                </div>    
                 <br>
-                Fecha de nacimiento: <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+                <div>
+                    F. nacimiento: <input type="date" id="fecha_nacimiento" name="fecha de nacimiento">
+                </div>
                 <br>
-                Personaje favorito: <select id="personaje" name="personaje">
-                <option value="">Seleccione un personaje</option>
-                <option value="jessie_pinkman">Jesse Pinkman</option>
-                <option value="walter_white">Walter White</option>
-                <option value="saul_goodman">Saul Goodman</option>
-                <option value="gustavo_fring">Gustavo Fring</option>
-                <option value="pollos_hermanos">Pollos Hermanos</option>
-                <option value="otros">Otros personajes</option>
-                </select>
+                <div>
+                    Personaje favorito: <select id="personaje" name="personaje">
+                    <option value="">Seleccione un personaje</option>
+                    <option value="jessie_pinkman">Jesse Pinkman</option>
+                    <option value="walter_white">Walter White</option>
+                    <option value="saul_goodman">Saul Goodman</option>
+                    <option value="gustavo_fring">Gustavo Fring</option>
+                    <option value="pollos_hermanos">Pollos Hermanos</option>
+                    <option value="otros">Otros personajes</option>
+                    </select>
+                </div>    
                 <br>
-                Deja tu Comentario <textarea id="comentarios" name="comentarios" rows="4" cols="50" minlength="10" maxlength="200"></textarea>
+                    Deja tu Comentario <textarea id="comentarios" name="comentarios" rows="4" cols="50" minlength="10" maxlength="200"></textarea>
                 <br>
-                <input type="submit" value="ENVIAR">
-                <input type="reset" value="BORRAR">
+                <div>
+                    <input type="submit" value="ENVIAR">
+                </div>
+                <div>
+                    <input type="reset" value="BORRAR">
+                </div>
                 <br>
-                Adjuntar archivo: <input type="file" id="archivo" name="archivo">
+                <div>
+                    Adjuntar archivo: <input type="file" id="archivo" name="archivo">
+                </div>    
+            </div>
+
             </form>
         </div>
     </body>

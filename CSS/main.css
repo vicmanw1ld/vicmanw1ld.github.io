@@ -56,7 +56,20 @@ h1{
     padding: 50px;  
     box-shadow: 10px 10px 10px rgba(10, 37, 81, 0.5);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
+input{
+    background-color: #D4D4D4;
+    width: 300px;
+    height: 20px;
+}
+/* #nombre{
+    background-color: #D4D4D4;
+    width: 200px;
+    height: 30px;
+
+}
+ */
 
 /* tabla periodica */
 
