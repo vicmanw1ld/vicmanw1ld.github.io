@@ -34,7 +34,7 @@ h1{
 
 /* POSTER */
 .poster{
-    background-image: url(breaking\ bad/poster.jpg);
+    background-image: url(/IMG/poster.jpg);
     width: 700px;
     height: 300px;
     margin: auto;
