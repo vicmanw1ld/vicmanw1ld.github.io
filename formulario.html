@@ -8,13 +8,10 @@
         <link rel="icon" href="IMG/icon.png" type="image/x-icon">
         
     </head>
-    <body class="cieloAzul">
-<!-- Nombre, Apellidos, Dirección Postal (Calle, Número, Piso,
-Código Postal, Ciudad, DNI y Correo Electrónico. -->
+    <body >
         <div>
-        
             <h1>Breaking Bad – Que comience el juego!</h1>
-
+            
             <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" enctype="multipart/form-data" class="formulario">
     
                 <div>
@@ -45,8 +42,8 @@ Código Postal, Ciudad, DNI y Correo Electrónico. -->
                     Ciudad: <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
                 </div>
                 
-                <!-- He investigado para poner restricciones al escribir el dni con pattern y 
-                expresiones regulares me ha resultado super curioso-->
+                <!-- Pongo restricciones al escribir el dni con pattern y con expresiones regulares 
+                    que me ha resultado super curioso-->
                 <div>
                     DNI: <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Z]" placeholder="ejemplo 56456456X">
                 </div>
@@ -89,8 +86,6 @@ Código Postal, Ciudad, DNI y Correo Electrónico. -->
                 <div>
                     Adjuntar archivo: <input type="file" id="archivo" name="archivo">
                 </div>    
-            </div>
-
             </form>
         </div>
     </body>
