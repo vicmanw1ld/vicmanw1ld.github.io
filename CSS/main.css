@@ -1,7 +1,5 @@
 /* index */
 body{
-    background-image: url(/IMG/fondo.jpg);
-    background-size:cover;
     color:whitesmoke;
     /* He dejado la letra sí pq en mi ordenador se veía mejor */
     font-size:large;
@@ -9,6 +7,11 @@ body{
     text-align: center;
 }
 
+.cieloAzul{
+    background-image: url(/IMG/fondo.jpg);
+    background-size:cover;
+
+}
 
 /* Letra propuesta por el cliente */
 @font-face {
@@ -18,7 +21,6 @@ body{
 
 h1{
     text-shadow: 10px 10px 10px black;
-
 }
 
 /* LOGO */
@@ -138,17 +140,10 @@ span{
     background-color: #D0C715;
 }
 
-/* tabla 2 */
+/* Perdón, pero me ha traido de culo por que no la cuadraba y aun... */
 
-#tabla2{
-    background-color: black;
-    margin: auto;
-    
-}
-
-#puta{
+#tocaPelotas{
     position: relative;
     top: 20px;
-    
     width: 75px;
 }
