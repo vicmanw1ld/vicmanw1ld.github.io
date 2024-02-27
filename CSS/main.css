@@ -85,7 +85,7 @@ input{
 
 /* tabla periodica */
 
-#fondoVerde{
+.fondoVerde{
     background-color: #0c3e11;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -95,10 +95,11 @@ input{
     background-color: black;
     margin: auto;
 }
-th{
+td{
     width: 80px;
     height: 50px;
     border: 2px solid #000;
+    font-weight: bold;
 }
 span{
     font-size: 40px;
