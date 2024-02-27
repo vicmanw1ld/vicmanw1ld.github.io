@@ -1,6 +1,4 @@
-/* index y formulario con el background, no sé si se verá bien, lo he mirado en varios
-navegadores y cada uno me sale una cosa, a mi se me ve bien la foto fondo en el index y formulario 
-y el fondo verde en la tabla, ya veré la nota 😜 */
+/* index y formulario con el background fondo*/
 
 body{
     background-image: url(/IMG/fondo.jpg);
@@ -97,7 +95,7 @@ input{
     background-color: black;
     margin: auto;
 }
-tr, th{
+th{
     width: 80px;
     height: 50px;
     border: 2px solid #000;
