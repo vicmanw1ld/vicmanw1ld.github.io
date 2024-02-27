@@ -1,5 +1,11 @@
 /* index y formulario con el background fondo*/
 
+/* Letra propuesta por el cliente */
+@font-face {
+    font-family: "Breaking Bad";
+    src: url(/Letra/Breaking\ Bad.ttf);
+}
+
 body{
     background-image: url(/IMG/fondo.jpg);
     background-size:cover;
@@ -9,12 +15,14 @@ body{
     margin: 0;
     text-align: center;
 }
+/* .fondoVerde{
+    
+    background-color: #0c3e11;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 
-/* Letra propuesta por el cliente */
-@font-face {
-    font-family: "Breaking Bad";
-    src: url(/Letra/Breaking\ Bad.ttf);
-}
+} */
+
 /* Títulos */
 h1{
     text-shadow: 10px 10px 10px black;
@@ -86,6 +94,7 @@ input{
 /* tabla periodica */
 
 .fondoVerde{
+    
     background-color: #0c3e11;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
