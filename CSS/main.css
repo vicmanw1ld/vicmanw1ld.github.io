@@ -7,7 +7,8 @@
 }
 
 body{
-    background-image: url(/IMG/fondo.jpg);
+    /* background-image: url(/IMG/fondo.jpg); */
+    background-image: url(/Users/vicmac/lmTareas/webBrakingBad/vicmanw1ld.github.io/IMG/fondo.jpg);
     background-size:cover;
     color:whitesmoke;
     /* He dejado la letra sí pq en mi ordenador se veía mejor */
@@ -15,13 +16,7 @@ body{
     margin: 0;
     text-align: center;
 }
-/* .fondoVerde{
-    
-    background-color: #0c3e11;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
 
-} */
 
 /* Títulos */
 h1{
@@ -93,13 +88,14 @@ input{
 
 /* tabla periodica */
 
-.fondoVerde{
+#fondoVerde{
     
     background-color: #0c3e11;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 #tableLements{
     background-color: black;
     margin: auto;
