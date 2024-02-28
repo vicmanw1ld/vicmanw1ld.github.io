@@ -6,7 +6,7 @@
     src: url(/Letra/Breaking\ Bad.ttf);
 }
 
-body{
+.image_back{
     /* background-image: url(/IMG/fondo.jpg); */
     background-image: url(/Users/vicmac/lmTareas/webBrakingBad/vicmanw1ld.github.io/IMG/fondo.jpg);
     background-size:cover;
@@ -89,11 +89,10 @@ input{
 /* tabla periodica */
 
 #fondoVerde{
-    
     background-color: #0c3e11;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-
+    text-align: center;
 }
 
 #tableLements{
@@ -144,6 +143,6 @@ span{
 
 #tocaPelotas{
     position: relative;
-    top: 20px;
+    top: 15px;
     width: 75px;
 }
