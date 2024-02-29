@@ -1,10 +1,9 @@
-/* index y formulario con el background fondo*/
-
 /* Letra propuesta por el cliente */
 @font-face {
     font-family: "Breaking Bad";
     src: url(/Letra/Breaking\ Bad.ttf);
 }
+/* index y formulario con el background fondo*/
 
 .image_back{
     /* background-image: url(/IMG/fondo.jpg); */
@@ -16,7 +15,6 @@
     margin: 0;
     text-align: center;
 }
-
 
 /* Títulos */
 h1{
@@ -60,7 +58,6 @@ h1{
     width: 30%;
 }
 input{
-    
     background-color: #D4D4D4;
     width: 200px;
     height: 20px;
